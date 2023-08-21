@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct CaloriesTrackerAppApp: App {
+    @StateObject var CaloriesListVM = CaloriesListViewModel()
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(CaloriesListVM)
         }
     }
 }

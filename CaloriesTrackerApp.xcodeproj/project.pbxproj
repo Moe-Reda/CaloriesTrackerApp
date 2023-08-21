@@ -14,6 +14,16 @@
 		398CB0BC2A24858C0001343E /* CaloriesTrackerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398CB0BB2A24858C0001343E /* CaloriesTrackerAppTests.swift */; };
 		398CB0C62A24858C0001343E /* CaloriesTrackerAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398CB0C52A24858C0001343E /* CaloriesTrackerAppUITests.swift */; };
 		398CB0C82A24858C0001343E /* CaloriesTrackerAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398CB0C72A24858C0001343E /* CaloriesTrackerAppUITestsLaunchTests.swift */; };
+		398CB0D52A24870E0001343E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398CB0D42A24870E0001343E /* Extensions.swift */; };
+		398CB0D72A24875A0001343E /* CaloriesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398CB0D62A24875A0001343E /* CaloriesModel.swift */; };
+		398CB0D92A2487DC0001343E /* CaloriesRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398CB0D82A2487DC0001343E /* CaloriesRow.swift */; };
+		398CB0DB2A2487F80001343E /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398CB0DA2A2487F80001343E /* PreviewData.swift */; };
+		39CB81B62A7B64D5001B2932 /* SwiftUIFontIcon in Frameworks */ = {isa = PBXBuildFile; productRef = 39CB81B52A7B64D5001B2932 /* SwiftUIFontIcon */; };
+		39CB81B82A829DC1001B2932 /* CaloriesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CB81B72A829DC1001B2932 /* CaloriesListViewModel.swift */; };
+		39CB81BC2A84583A001B2932 /* RecentCaloriesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CB81BB2A84583A001B2932 /* RecentCaloriesList.swift */; };
+		39CB81BE2A8C2C16001B2932 /* CaloriesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CB81BD2A8C2C16001B2932 /* CaloriesList.swift */; };
+		39CB81C12A8C4B51001B2932 /* Collections in Frameworks */ = {isa = PBXBuildFile; productRef = 39CB81C02A8C4B51001B2932 /* Collections */; };
+		39CB81C42A8EBA71001B2932 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 39CB81C32A8EBA71001B2932 /* SwiftUICharts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +55,13 @@
 		398CB0C12A24858C0001343E /* CaloriesTrackerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaloriesTrackerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		398CB0C52A24858C0001343E /* CaloriesTrackerAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaloriesTrackerAppUITests.swift; sourceTree = "<group>"; };
 		398CB0C72A24858C0001343E /* CaloriesTrackerAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaloriesTrackerAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		398CB0D42A24870E0001343E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		398CB0D62A24875A0001343E /* CaloriesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaloriesModel.swift; sourceTree = "<group>"; };
+		398CB0D82A2487DC0001343E /* CaloriesRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaloriesRow.swift; sourceTree = "<group>"; };
+		398CB0DA2A2487F80001343E /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
+		39CB81B72A829DC1001B2932 /* CaloriesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaloriesListViewModel.swift; sourceTree = "<group>"; };
+		39CB81BB2A84583A001B2932 /* RecentCaloriesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentCaloriesList.swift; sourceTree = "<group>"; };
+		39CB81BD2A8C2C16001B2932 /* CaloriesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaloriesList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +69,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39CB81C42A8EBA71001B2932 /* SwiftUICharts in Frameworks */,
+				39CB81C12A8C4B51001B2932 /* Collections in Frameworks */,
+				39CB81B62A7B64D5001B2932 /* SwiftUIFontIcon in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +120,12 @@
 				398CB0AD2A24858C0001343E /* Assets.xcassets */,
 				398CB0AF2A24858C0001343E /* CaloriesTrackerApp.entitlements */,
 				398CB0B02A24858C0001343E /* Preview Content */,
+				398CB0D42A24870E0001343E /* Extensions.swift */,
+				398CB0D62A24875A0001343E /* CaloriesModel.swift */,
+				398CB0D82A2487DC0001343E /* CaloriesRow.swift */,
+				39CB81B72A829DC1001B2932 /* CaloriesListViewModel.swift */,
+				39CB81BB2A84583A001B2932 /* RecentCaloriesList.swift */,
+				39CB81BD2A8C2C16001B2932 /* CaloriesList.swift */,
 			);
 			path = CaloriesTrackerApp;
 			sourceTree = "<group>";
@@ -108,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				398CB0B12A24858C0001343E /* Preview Assets.xcassets */,
+				398CB0DA2A2487F80001343E /* PreviewData.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -145,6 +172,11 @@
 			dependencies = (
 			);
 			name = CaloriesTrackerApp;
+			packageProductDependencies = (
+				39CB81B52A7B64D5001B2932 /* SwiftUIFontIcon */,
+				39CB81C02A8C4B51001B2932 /* Collections */,
+				39CB81C32A8EBA71001B2932 /* SwiftUICharts */,
+			);
 			productName = CaloriesTrackerApp;
 			productReference = 398CB0A62A24858B0001343E /* CaloriesTrackerApp.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +249,11 @@
 				Base,
 			);
 			mainGroup = 398CB09D2A24858B0001343E;
+			packageReferences = (
+				39CB81B42A7B64D4001B2932 /* XCRemoteSwiftPackageReference "SwiftUIFontIcon" */,
+				39CB81BF2A8C4B51001B2932 /* XCRemoteSwiftPackageReference "swift-collections" */,
+				39CB81C22A8EBA71001B2932 /* XCRemoteSwiftPackageReference "ChartView" */,
+			);
 			productRefGroup = 398CB0A72A24858B0001343E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,7 +296,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39CB81B82A829DC1001B2932 /* CaloriesListViewModel.swift in Sources */,
 				398CB0AC2A24858B0001343E /* ContentView.swift in Sources */,
+				39CB81BE2A8C2C16001B2932 /* CaloriesList.swift in Sources */,
+				39CB81BC2A84583A001B2932 /* RecentCaloriesList.swift in Sources */,
+				398CB0D72A24875A0001343E /* CaloriesModel.swift in Sources */,
+				398CB0DB2A2487F80001343E /* PreviewData.swift in Sources */,
+				398CB0D52A24870E0001343E /* Extensions.swift in Sources */,
+				398CB0D92A2487DC0001343E /* CaloriesRow.swift in Sources */,
 				398CB0AA2A24858B0001343E /* CaloriesTrackerAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -612,6 +656,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		39CB81B42A7B64D4001B2932 /* XCRemoteSwiftPackageReference "SwiftUIFontIcon" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/huybuidac/SwiftUIFontIcon";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		39CB81BF2A8C4B51001B2932 /* XCRemoteSwiftPackageReference "swift-collections" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-collections.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		39CB81C22A8EBA71001B2932 /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = exactVersion;
+				version = "2.0.0-beta.2";
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		39CB81B52A7B64D5001B2932 /* SwiftUIFontIcon */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 39CB81B42A7B64D4001B2932 /* XCRemoteSwiftPackageReference "SwiftUIFontIcon" */;
+			productName = SwiftUIFontIcon;
+		};
+		39CB81C02A8C4B51001B2932 /* Collections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 39CB81BF2A8C4B51001B2932 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = Collections;
+		};
+		39CB81C32A8EBA71001B2932 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 39CB81C22A8EBA71001B2932 /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 398CB09E2A24858B0001343E /* Project object */;
 }
